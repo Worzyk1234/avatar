@@ -1,0 +1,354 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.container {
+  width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header {
+  background-image: linear-gradient(
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(./img/header-back.png);
+  border-bottom: 3px solid #fff;
+  width: 1440px;
+  height: 150px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.head_logo {
+  margin-top: 39px;
+  margin-bottom: 39px;
+}
+
+.list_menu {
+  display: flex;
+  margin-left: 160px;
+}
+
+.menu-item {
+  color: #fff;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #94cfff;
+}
+
+.item {
+  margin-right: 38px;
+  margin-top: 63px;
+  margin-bottom: 63px;
+}
+
+.header-log {
+  font-family: "HeadlandOne", sans-serif;
+  color: #26c6ea;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 9px 37px 8px 36px;
+  margin-left: 212px;
+  margin-top: 54px;
+  margin-bottom: 54px;
+  border-radius: 2px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-color: #26c7ea;
+  background-color: #0b0e66;
+  cursor: pointer;
+  color: #26c6ea;
+}
+
+.hero {
+  background-image: url(./img/hero_back.png);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 180px;
+  width: 1440px;
+  height: 740px;
+}
+
+.hero-text-1 {
+  width: 298px;
+  height: 96px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-image-1 {
+  width: 152px;
+  height: 40px;
+  padding-left: 257px;
+  padding-right: 1031px;
+  padding-top: 276px;
+  padding-bottom: 424px;
+}
+
+.hero-text-2 {
+  width: 376px;
+  height: 123px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Join_clan {
+  color: #26c7ea;
+  text-align: center;
+  font-family: "HeadlandOne";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 260px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background: #0b0e66;
+}
+
+.foresigh-title {
+  text-align: center;
+  padding-top: 75px;
+  color: #0a3853;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mini-title {
+  color: #000;
+  text-align: center;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-3 {
+  width: 400px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.trailer {
+  background-image: url(./img/trailer-back.png);
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 741px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn-wathc {
+  width: 260px;
+  height: 80px;
+  border-radius: 45px 0px;
+  border: 3px solid #26c7ea;
+  background-color: #0b0e66;
+  color: #26c7ea;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image_4 {
+  width: 400px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.dictionary {
+  padding-top: 55px;
+  padding-bottom: 57px;
+  background-image: url(./img/Lets_learn.png);
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 704px;
+}
+
+.dictionary-title {
+  color: #141414;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dictionary-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dictionary-item {
+  padding: 36px 84px;
+  width: 320px;
+  height: 240px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dictionary-text-1 {
+  color: #141414;
+  text-align: center;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.dictionary-text-2 {
+  margin-top: 40px;
+  color: #000;
+  font-family: "HeadlandOne", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.image_11 {
+  width: 400px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+/*  */
+.footer {
+  padding-top: 77px;
+  padding-bottom: 76px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(./img/header-back.png);
+  width: 1440px;
+  height: 223px;
+}
+
+.footer > .container {
+  display: flex;
+}
+
+.footer-logo {
+  margin-right: 50px;
+}
+
+.line {
+  left: 450px;
+  top: 30px;
+  position: absolute;
+}
+
+.mail {
+  color: #fff;
+  text-align: justify;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.end {
+  right: 500px;
+  bottom: 0px;
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
